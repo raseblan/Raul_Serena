@@ -1079,7 +1079,7 @@ Subir el proyecto a github y crear el link para que se pueda ver */
             align-items: flex-start;
             background-color: #000000;
             padding: 0.5rem 0.5rem 2rem 0.5rem;
-            width: 240px;
+            width: 270px;
             margin-right: 0%;
             justify-content: flex-start;
             box-shadow: 0 0 0 100vmax rgba(56, 56, 56, 0.8);
@@ -1198,16 +1198,22 @@ Subir el proyecto a github y crear el link para que se pueda ver */
             padding-left: 76px;
         }
         .text-proyectos {
-            font-size: 15px;
+            font-size: 16px;
         }
         .p-proyectos {
-            font-size: 14px;
+            font-size: 15px;
         }
         .img-contact {
             width: 22%;
         }
         .nombre-class {
             width: 78%;
+        }
+        .b-class {
+            font-size: 16px;
+        }
+        .a-class {
+            font-size: 17px;
         }
         .seccion-titulo {
             justify-content: center;
@@ -1368,6 +1374,9 @@ Subir el proyecto a github y crear el link para que se pueda ver */
         }
         .footer-div-hijo-content-links {
             margin-left: 21px;
+        }
+        .imagen-nav-2 {
+            width: 33px;
         }
     }
     /* este es el tamaño solo para movil */
