@@ -73,3 +73,16 @@ window.addEventListener('resize', function() {
         closeNav();
     }
 });
+
+
+function downloadFile() {
+    const fileUrl = './RaulSerena.pdf';
+    const fileName = 'RaulSerena.pdf';
+    const a = document.createElement('a');
+    a.href = fileUrl;
+    a.target = '_blank';
+    a.download = fileName;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+}
