@@ -51,7 +51,7 @@ Subir el proyecto a github y crear el link para que se pueda ver */
         z-index: 1000;
         position: fixed;
         background-color: #252a55;
-        opacity: 0.85;
+        opacity: 0.90;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
     
@@ -59,7 +59,15 @@ Subir el proyecto a github y crear el link para que se pueda ver */
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-bottom: 15px;
+        margin-bottom: 31px;
+        margin-top: 1%;
+    }
+    
+    .titulo-perfil {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 31px;
         margin-top: 3%;
     }
     
@@ -67,7 +75,7 @@ Subir el proyecto a github y crear el link para que se pueda ver */
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-bottom: 15px;
+        margin-bottom: 25px;
         margin-top: 1%;
     }
     
@@ -187,7 +195,7 @@ Subir el proyecto a github y crear el link para que se pueda ver */
     .seccion {
         background-color: #001F3F;
         color: #ffffff;
-        padding: 80px 0;
+        padding: 60px 0;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -204,7 +212,7 @@ Subir el proyecto a github y crear el link para que se pueda ver */
     .seccion2-copia {
         background-color: #2c3e50;
         color: #ebebeb;
-        padding: 60px 0;
+        padding: 30px 0;
         display: flex;
         flex-wrap: wrap;
     }
@@ -222,6 +230,7 @@ Subir el proyecto a github y crear el link para que se pueda ver */
         align-content: center;
         font-size: 38px;
         margin-top: 1%;
+        margin-bottom: 30px;
     }
     
     .texto-oscuro {
@@ -277,7 +286,7 @@ Subir el proyecto a github y crear el link para que se pueda ver */
         background-color: #2c3e50;
         color: #ffffff;
         width: 100%;
-        padding: 37px 0px 40px 0px;
+        padding: 50px 0px 40px 0px;
     }
     
     .contenedor-div {
@@ -658,7 +667,7 @@ Subir el proyecto a github y crear el link para que se pueda ver */
     }
     
     .progress-bar-85 {
-        width: 85%;
+        width: 75%;
         height: 25px;
         background-color: #01679a;
         border-radius: 25px;
@@ -729,15 +738,33 @@ Subir el proyecto a github y crear el link para que se pueda ver */
         margin-bottom: 23px;
     }
     
+    .footer-div-hijo-title-follow {
+        font-size: 24px;
+        color: #ffffff;
+        margin-bottom: 44px;
+    }
+    
     .imagen-nav-2 {
         display: flex;
         width: 35px;
         margin: 12px;
     }
     
-    .imagen-nav-1 {
+    .imagen-nav-4 {
         display: flex;
-        width: 23px;
+        width: 27px;
+        margin: 5px;
+    }
+    
+    .imagen-nav-5 {
+        display: flex;
+        width: 30px;
+        margin: 5px;
+    }
+    
+    .imagen-nav-6 {
+        display: flex;
+        width: 29px;
         margin: 5px;
     }
     
@@ -750,7 +777,6 @@ Subir el proyecto a github y crear el link para que se pueda ver */
         justify-content: start;
         align-items: center;
         margin-bottom: 6px;
-        margin-left: 28%;
     }
     
     .pe-quick {
@@ -789,7 +815,7 @@ Subir el proyecto a github y crear el link para que se pueda ver */
         text-decoration: none;
         transition: color 0.3s ease;
         font-size: 19px;
-        margin-left: 3px;
+        margin-left: 10px;
     }
     
     .pe a:hover {
@@ -826,6 +852,24 @@ Subir el proyecto a github y crear el link para que se pueda ver */
     
     .cerrar {
         display: none;
+    }
+    
+    .div-contact {
+        display: flex;
+        width: 100%;
+        margin-left: 6%;
+    }
+    
+    .img-contact {
+        width: 30%;
+        display: flex;
+        justify-content: end;
+    }
+    
+    .nombre-class {
+        width: 70%;
+        display: flex;
+        align-items: center;
     }
     
     @media screen and (max-width: 1650px) {
@@ -877,6 +921,9 @@ Subir el proyecto a github y crear el link para que se pueda ver */
     }
     
     @media screen and (max-width: 1000px) {
+        .pe {
+            margin-left: 1%;
+        }
         nav ul li {
             font-size: 14px;
         }
@@ -1264,6 +1311,9 @@ Subir el proyecto a github y crear el link para que se pueda ver */
         .footer-div-hijo-title {
             font-size: 23px;
         }
+        .footer-div-hijo-title-follow {
+            font-size: 23px;
+        }
     }
     /* este es el tamaño solo para movil */
     
@@ -1341,6 +1391,10 @@ Subir el proyecto a github y crear el link para que se pueda ver */
             margin-bottom: 15px;
             margin-top: 4%;
         }
+        .titulo-perfil {
+            margin-bottom: 15px;
+            margin-top: 4%;
+        }
         .titulo-copia {
             margin-bottom: 10px;
             margin-top: 0%;
@@ -1372,6 +1426,11 @@ Subir el proyecto a github y crear el link para que se pueda ver */
             flex-wrap: wrap;
         }
         .footer-div-hijo-title {
+            font-size: 25px;
+            display: flex;
+            justify-content: center;
+        }
+        .footer-div-hijo-title-follow {
             font-size: 25px;
             display: flex;
             justify-content: center;
