@@ -1407,6 +1407,11 @@ a {
         line-height: 1.3;
         font-size: 18px;
     }
+    .parrafo-experiencia1-copia {
+        font-size: 18px;
+        color: #ffffff;
+        line-height: 1.3;
+    }
     .icono {
         display: none;
     }
@@ -1560,5 +1565,9 @@ a {
     .parrafo-experiencia1-fecha {
         display: flex;
         align-items: center;
+        font-size: 18px;
+    }
+    .parrafo-experiencia {
+        font-size: 19px;
     }
 }
