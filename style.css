@@ -146,6 +146,7 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 17.5px;
+    margin-left: 0px;
 }
 
 nav ul li:hover {
@@ -222,6 +223,7 @@ nav ul li:hover {
     align-items: center;
     align-content: center;
     font-size: 38px;
+    color: #F2F2F7;
 }
 
 .seccion-titulo-copia {
@@ -231,6 +233,7 @@ nav ul li:hover {
     font-size: 38px;
     margin-top: 1%;
     margin-bottom: 30px;
+    color: #F2F2F7;
 }
 
 .texto-oscuro {
@@ -317,7 +320,7 @@ nav ul li:hover {
 .seccion-titulo3,
 .seccion-titulo3-copia {
     font-size: 33px;
-    color: #e0dfdf;
+    color: #e5e5ed;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -325,7 +328,7 @@ nav ul li:hover {
 
 .seccion-titulo3-cursos {
     font-size: 33px;
-    color: #e0dfdf;
+    color: #e5e5ed;
     display: flex;
     align-items: center;
     margin-left: 15.7%;
@@ -333,7 +336,7 @@ nav ul li:hover {
 
 .seccion-titulo3-bo {
     font-size: 33px;
-    color: #e0dfdf;
+    color: #e5e5ed;
     display: flex;
     align-items: center;
     margin-left: 15%;
@@ -342,7 +345,7 @@ nav ul li:hover {
 
 .seccion-titulo4 {
     font-size: 33px;
-    color: #e0dfdf;
+    color: #e5e5ed;
     height: 0%;
 }
 
@@ -372,7 +375,7 @@ nav ul li:hover {
 
 ul {
     list-style-type: disc;
-    color: rgb(213, 208, 208);
+    color: #cccccc;
 }
 
 li {
@@ -446,18 +449,22 @@ li {
     font-size: 22px;
     display: flex;
     justify-content: center;
+    color: #e5e5ed;
 }
 
 .parrafo-experiencia1 {
     font-size: 19px;
+    color: #cccccc;
 }
 
 .parrafo-experiencia1-fecha {
     font-size: 19px;
+    color: #cccccc;
 }
 
 .parrafo-experiencia1-copia {
     font-size: 19px;
+    color: #cccccc;
 }
 
 .experencia-laboral-div {
@@ -527,6 +534,7 @@ li {
     font-weight: bold;
     margin-bottom: 5px;
     margin-top: 4%;
+    color: #cccccc;
 }
 
 .periodo-educacion {
@@ -738,13 +746,13 @@ li {
 
 .footer-div-hijo-title {
     font-size: 24px;
-    color: #ffffff;
+    color: #F2F2F7;
     margin-bottom: 23px;
 }
 
 .footer-div-hijo-title-follow {
     font-size: 24px;
-    color: #ffffff;
+    color: #F2F2F7;
     margin-bottom: 44px;
 }
 
@@ -799,7 +807,7 @@ li {
 }
 
 b {
-    color: #e1e8ec;
+    color: #e7e7e7;
     font-size: 17px;
     margin-left: 10px;
 }
@@ -808,11 +816,10 @@ b {
     font-family: "Roboto", sans-serif;
     font-weight: bold;
     font-size: 17px;
-    color: #ececec;
 }
 
 a {
-    color: #e1e8ec;
+    color: #e7e7e7;
     text-decoration: none;
     transition: color 0.3s ease;
     font-size: 19px;
@@ -941,6 +948,9 @@ a {
         width: 100%;
         justify-content: center;
     }
+    .container {
+        opacity: 0.98;
+    }
     .texto-oscuro {
         margin-top: 5%;
         color: #cccccc;
@@ -984,16 +994,22 @@ a {
     }
     .seccion-titulo3,
     .seccion-titulo3-copia {
-        font-size: 28px;
+        font-size: 25px;
+        margin-bottom: 12px;
     }
     .seccion-titulo4 {
-        font-size: 28px;
+        font-size: 25px;
+        margin-bottom: 12px;
     }
     .seccion-titulo3-bo {
         font-size: 28px;
     }
     .seccion-titulo3-cursos {
-        font-size: 28px;
+        font-size: 25px;
+        margin-bottom: 12px;
+    }
+    li {
+        font-size: 22px;
     }
     .educacion-item {
         width: 87%;
@@ -1024,7 +1040,7 @@ a {
     }
     .hamburguesa:hover::after,
     .cerrar:hover::after {
-        background-color: rgba(255, 244, 122, 0.1);
+        background-color: rgba(0, 0, 0, 0.9);
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
     nav ul li a:hover {
@@ -1063,7 +1079,7 @@ a {
         visibility: visible;
         right: 0;
         transform: translateX(0);
-        transition: transform 0.5s ease, opacity 0.3s ease;
+        transition: transform 0.5s ease, opacity 0.4s ease;
     }
     .lis {
         margin-top: 13px;
@@ -1083,7 +1099,7 @@ a {
         align-items: flex-start;
         background-color: #000000;
         padding: 0.5rem 0.5rem 2rem 0.5rem;
-        width: 270px;
+        width: 300px;
         margin-right: 0%;
         justify-content: flex-start;
         box-shadow: 0 0 0 100vmax rgba(56, 56, 56, 0.8);
@@ -1549,9 +1565,12 @@ a {
         width: 100%;
         margin: 5%;
     }
-    .progress-bar-90,
     .progress-bar-85 {
         height: 16px;
+    }
+    .progress-bar-90 {
+        height: 16px;
+        padding-left: 32px;
     }
     .text-proyectos {
         font-size: 15px;
