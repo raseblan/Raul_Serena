@@ -1206,6 +1206,9 @@ a {
 }
 
 @media screen and (max-width: 688px) {
+    .experencia-laboral-50-1-1 {
+        height: 188px;
+    }
     .div-abrir {
         padding: 2rem;
     }
@@ -1303,7 +1306,6 @@ a {
         margin-bottom: 5%;
         justify-content: center;
         padding-left: 0%;
-        /* padding-right: 14%; */
     }
     .divPequeno2 {
         width: 100%;
@@ -1344,7 +1346,6 @@ a {
         margin-top: 1%;
         border-bottom: 2px solid white;
         padding-bottom: 2%;
-        /* margin-right: 11.2%; */
     }
     .seccion-titulo4 {
         width: 80%;
@@ -1412,6 +1413,9 @@ a {
 /* este es el tamaño solo para movil */
 
 @media screen and (max-width: 499px) {
+    .experencia-laboral-50-1-1 {
+        height: 0px;
+    }
     .Tiempo-desarollando {
         display: flex;
         width: 100%;
