@@ -1443,6 +1443,9 @@ a {
         justify-content: center;
         width: 70%;
     }
+    .experencia-laboral-50-2 {
+        height: 98%;
+    }
     .contenedor-texto {
         width: 90%;
         margin-top: 0%;
@@ -1495,7 +1498,6 @@ a {
     }
     .seccion2-copia {
         padding: 20px 0px;
-        height: 550px;
     }
     .titulo {
         margin-bottom: 15px;
