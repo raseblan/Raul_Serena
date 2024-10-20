@@ -1485,7 +1485,7 @@ a {
         font-size: 22px;
     }
     .seccion {
-        padding: 75px 0px;
+        padding: 95px 0px;
     }
     .seccion1 {
         padding: 62px 0px 62px 0px;
@@ -1495,6 +1495,7 @@ a {
     }
     .seccion2-copia {
         padding: 20px 0px;
+        height: 400px;
     }
     .titulo {
         margin-bottom: 15px;
@@ -1559,7 +1560,7 @@ a {
         margin-right: 15px;
     }
     .experencia-laboral-texto-copia {
-        margin-bottom: 32px;
+        margin-bottom: 24px;
     }
     .experencia-laboral-texto1 {
         width: 100%;
@@ -1587,7 +1588,7 @@ a {
         font-size: 18px;
     }
     .parrafo-experiencia {
-        font-size: 19px;
+        font-size: 22px;
         height: 0%;
     }
 }
