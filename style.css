@@ -1517,11 +1517,10 @@ a {
     }
     .footer-div-hijo {
         width: 100%;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }
     .footer-div-hijo-images {
         width: 100%;
-        margin-bottom: 20px;
     }
     .footer-div {
         flex-wrap: wrap;
@@ -1544,11 +1543,13 @@ a {
     .footer-div-hijo-title {
         font-size: 25px;
         display: flex;
+        margin-bottom: 13px;
         justify-content: center;
     }
     .footer-div-hijo-title-follow {
         font-size: 25px;
         display: flex;
+        margin-bottom: 24px;
         justify-content: center;
     }
     .footer-div-hijo-content-sub {
