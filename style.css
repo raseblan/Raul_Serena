@@ -19,6 +19,16 @@ Subir el proyecto a github y crear el link para que se pueda ver */
     box-sizing: border-box;
 }
 
+.footer-copy {
+    background-color: #2C2F33;
+    color: #e7e7e7;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 30px;
+    align-items: center;
+}
+
 .no-scroll {
     overflow: hidden;
     height: 100%;
@@ -351,26 +361,32 @@ nav ul li:hover {
 
 .divPequeno {
     margin-top: 3%;
-    padding-left: 40%;
     width: 100%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+}
+
+.divPequeno3 {
+    margin-top: 3%;
+    width: 100%;
+    padding-left: 21px;
+    display: flex;
+    justify-content: center;
 }
 
 .divPequeno1 {
     margin-top: 3%;
-    padding-left: 38%;
     width: 100%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 .divPequeno2 {
     margin-top: 5%;
-    padding-left: 37%;
     width: 100%;
+    padding-left: 23px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 ul {
@@ -1118,33 +1134,72 @@ a {
 }
 
 @media screen and (max-width: 850px) {
+    .div1 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 0%;
+    }
+    .div2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 0%;
+    }
     .contenedor-div {
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
     }
-    .div1 {
-        justify-content: flex-start;
-        width: 50%;
-        display: block;
-    }
-    .divPequeno {
-        justify-content: flex-start;
-        padding-left: 22%;
+    .divPequeno,
+    .divPequeno3 {
+        width: 80%;
+        display: flex;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        justify-content: center;
+        padding-left: 0%;
     }
     .divPequeno2,
     .divPequeno1 {
-        justify-content: flex-start;
-        padding-left: 15%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-left: 0%;
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
-    .seccion-titulo3,
-    .seccion-titulo3-copia,
-    .seccion-titulo3-bo,
-    .seccion-titulo3-cursos {
-        font-size: 26px;
-        margin-left: 10px;
+    .seccion-titulo3 {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        font-size: 24px;
+        margin-left: 0%;
+        margin-top: 1%;
+        border-bottom: 2px solid white;
+        padding-bottom: 2%;
     }
     .seccion-titulo4 {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        font-size: 24px;
+        margin-left: 0%;
+        margin-top: 1%;
+        border-bottom: 2px solid white;
+        padding-bottom: 2%;
+    }
+    .seccion-titulo3-cursos {
+        margin-left: 3%;
+        font-size: 24px;
+        border-bottom: 2px solid white;
+        padding-bottom: 2%;
+    }
+    .seccion-titulo3-copia,
+    .seccion-titulo3-bo {
         font-size: 26px;
+        margin-left: 10px;
     }
     .parrafo-experiencia1,
     .parrafo-experiencia1-copia,
@@ -1293,76 +1348,8 @@ a {
         height: 0px;
         color: #ffffff;
     }
-    .div1 {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        padding: 0%;
-    }
-    .divPequeno {
-        width: 80%;
-        display: flex;
-        margin-top: 5%;
-        margin-bottom: 5%;
-        justify-content: center;
-        padding-left: 0%;
-    }
-    .divPequeno2 {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        padding-left: 0%;
-        margin-top: 5%;
-        margin-bottom: 5%;
-    }
-    .divPequeno1 {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        padding-left: 0%;
-        margin-top: 5%;
-        margin-bottom: 5%;
-    }
-    .div2 {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        padding: 0%;
-    }
-    .contenedor-div {
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-    }
     li {
         margin-top: 1%;
-    }
-    .seccion-titulo3 {
-        width: 80%;
-        display: flex;
-        justify-content: center;
-        font-size: 24px;
-        margin-left: 0%;
-        margin-top: 1%;
-        border-bottom: 2px solid white;
-        padding-bottom: 2%;
-    }
-    .seccion-titulo4 {
-        width: 80%;
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        font-size: 24px;
-        margin-left: 0%;
-        margin-top: 1%;
-        border-bottom: 2px solid white;
-        padding-bottom: 2%;
-    }
-    .seccion-titulo3-cursos {
-        margin-left: 3%;
-        font-size: 24px;
-        border-bottom: 2px solid white;
-        padding-bottom: 2%;
     }
     .seccion-titulo3-copia {
         font-size: 24px;
@@ -1448,7 +1435,7 @@ a {
         width: 70%;
     }
     .experencia-laboral-50-2 {
-        height: 98%;
+        height: 74%;
     }
     .contenedor-texto {
         width: 90%;
@@ -1459,13 +1446,14 @@ a {
         height: 400px;
     }
     .experencia-laboral-50 {
-        height: 270px;
+        height: 249px;
+        padding-bottom: 15px;
     }
     .experencia-laboral-50-50 {
         height: 143px;
     }
     .experencia-laboral-texto {
-        height: 40px;
+        height: 18px;
     }
     .experencia-laboral-div {
         width: 55%;
@@ -1570,8 +1558,7 @@ a {
         margin-bottom: 24px;
     }
     .experencia-laboral-texto1 {
-        width: 78%;
-        margin: 5%;
+        width: 90%;
     }
     .progress-bar-85 {
         height: 16px;
