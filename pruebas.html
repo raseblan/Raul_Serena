@@ -4,11 +4,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style1.css">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <header>
+        <nav>
+            <ul>
+                <div class="container" id="container">
+                    <div class="titulo-nav ">
+                        <div class="icono">
+                            <a href="./index.html "><img class="imagen-nav" src="./img/ordenador.png" alt=" "></a>
+                        </div>
+                        <div class="parrafo-web">
+                            <a href="./index.html">  Curriculum Web</a>
+                        </div>
+
+                    </div>
+                    <div class="div-abrir">
+                        <a id="abrir" class="hamburguesa"><img class="imagen-nav" src="./img/barra-de-menus (3).png" alt=" "></a>
+                    </div>
+                    <div id="nvbar" class="nvbar-pruebas">
+
+                        <li class="lis "><a onclick="closeNav()" href="./index.html">Inicio</a></li>
+                        <li class="lis-imagen " onclick="downloadFile()"><img class="imagen-nav-candado" src="./img/carpeta-de-descargas.png" alt=" "></li>
+
+                    </div>
+                </div>
+            </ul>
+        </nav>
+    </header>
     <section class="section-proyectos">
         <div class="div-img">
             <a href="./index.html"><img src="./img/flecha-izquierda (1).png" alt=""></a>
@@ -16,14 +42,14 @@
         <div class="div-general-more-proyects">
             <div class="seccion-titulo ">
                 <div class="div-title">
-                    <h2>Más proyectos y certificaciones</h2>
+                    <h2 class="title-h2">Más proyectos y certificaciones</h2>
                 </div>
             </div>
             <div class="proyecto1 disabled">
                 <div class="overlay">
                     <div class="progress-container">
                         <div title="en progreso" class="progress-bar-90">
-                            <p class="noventa">90%</p>
+                            <p class="noventa">60%</p>
                         </div>
                         <div class="tooltip">En proceso</div>
                     </div>
@@ -37,7 +63,7 @@
                 <div class="overlay">
                     <div class="progress-container">
                         <div title="en progreso" class="progress-bar-90">
-                            <p class="noventa">90%</p>
+                            <p class="noventa">60%</p>
                         </div>
                         <div class="tooltip">En proceso</div>
                     </div>
@@ -45,33 +71,10 @@
                 <h3 class="text-proyectos" style="margin-bottom: 17px;">Certificación Internacional iSTQB en Testing de Software</h3>
                 <p class="p-proyectos">Certificación iSTQB: dominio profesional en pruebas de software efectivas.</p>
             </div>
-            <div class="proyecto1 disabled">
-                <div class="overlay">
-                    <div class="progress-container">
-                        <div title="en progreso" class="progress-bar-90">
-                            <p class="noventa">90%</p>
-                        </div>
-                        <div class="tooltip">En proceso</div>
-                    </div>
-                </div>
-                <h3 class="text-proyectos" style="margin-bottom: 17px;">Certificación Internacional iSTQB en Testing de Software</h3>
-                <p class="p-proyectos">Certificación iSTQB: dominio profesional en pruebas de software efectivas.</p>
-            </div>
-            <div class="proyecto1 disabled">
-                <div class="overlay">
-                    <div class="progress-container">
-                        <div title="en progreso" class="progress-bar-90">
-                            <p class="noventa">90%</p>
-                        </div>
-                        <div class="tooltip">En proceso</div>
-                    </div>
-                </div>
-                <h3 class="text-proyectos" style="margin-bottom: 17px;">Certificación Internacional iSTQB en Testing de Software</h3>
-                <p class="p-proyectos">Certificación iSTQB: dominio profesional en pruebas de software efectivas.</p>
-            </div>
+
         </div>
     </section>
-
+    <script src="script.js"></script>
 </body>
 
 </html>
