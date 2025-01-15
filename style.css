@@ -898,6 +898,19 @@ a {
     align-items: center;
 }
 
+.link-masInfo {
+    width: 60%;
+    justify-content: end;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.masinfo {
+    text-decoration: underline;
+    color: #bbbbbb;
+}
+
 @media screen and (max-width: 1650px) {
     .icono {
         width: 3%;
@@ -1136,6 +1149,13 @@ a {
 }
 
 @media screen and (max-width: 850px) {
+    .link-masInfo {
+        width: 100%;
+        justify-content: end;
+        display: flex;
+        align-items: center;
+        margin-right: 20px;
+    }
     .div1 {
         width: 100%;
         display: flex;
