@@ -77,7 +77,7 @@ window.addEventListener('resize', function() {
 
 function downloadFile() {
     const fileUrl = './RaulSerenaCV.pdf';
-    const fileName = 'RaulSerenaV.pdf';
+    const fileName = 'RaulSerenaCV.pdf';
     const a = document.createElement('a');
     a.href = fileUrl;
     a.target = '_blank';
