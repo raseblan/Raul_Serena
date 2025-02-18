@@ -1752,6 +1752,9 @@ a {
     .experencia-laboral-texto1 {
         width: 90%;
     }
+    .educacion-item-batx {
+        width: 80%;
+    }
 }
 
 @media screen and (max-width: 320px) {
