@@ -475,12 +475,12 @@ li {
 
 .parrafo-experiencia1-fecha {
     font-size: 19px;
-    color: #cccccc;
+    color: rgb(229, 228, 228);
 }
 
 .parrafo-experiencia1-copia {
     font-size: 19px;
-    color: rgb(213, 208, 208);
+    color: rgb(229, 228, 228);
 }
 
 .experencia-laboral-div {
@@ -654,17 +654,34 @@ li {
     text-decoration: underline;
 }
 
+.proyecto-link__div-certificacion {
+    display: flex;
+    margin-top: 7px;
+    font-size: 16px;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+}
+
 .duracion-proyecto__div,
 .proyecto a {
     font-size: 16px !important;
 }
 
-.proyecto-descripcion {
+.proyecto-descripcion,
+.proyecto-descripcion-certificacion {
     font-size: 18px;
     color: #cfcfcf;
 }
 
 .proyecto-titulossss {
+    margin: 8px;
+    margin-top: 12px;
+    font-size: 22px;
+    color: #cfcfcf;
+}
+
+.proyecto-titulossss-certificacion {
     margin: 8px;
     margin-top: 12px;
     font-size: 22px;
@@ -702,10 +719,36 @@ li {
     height: 50px;
 }
 
+.div_desc-certificacion {
+    width: 98%;
+    margin: 1%;
+    margin-top: 16px;
+    margin-bottom: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
 .proyecto {
     position: relative;
     width: 60%;
     height: 205px;
+    border-radius: 2px;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 8px;
+    background: #002040b4;
+    color: rgb(234, 232, 232);
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border: 2px solid #cfcfcf;
+}
+
+.proyecto-certificacion {
+    position: relative;
+    width: 60%;
+    height: 150px;
     border-radius: 2px;
     margin: 20px 0;
     padding: 10px;
@@ -1310,6 +1353,10 @@ a {
         width: 100%;
         margin: 20px 20px;
     }
+    .proyecto-certificacion {
+        width: 100%;
+        margin: 20px 20px;
+    }
     .text-proyectos {
         font-size: 17px;
     }
@@ -1332,13 +1379,16 @@ a {
         font-size: 12px;
     }
     .duracion-proyecto__div,
-    .proyecto a {
+    .proyecto a,
+    .proyecto-link__div-certificacion {
         font-size: 14px !important;
     }
-    .proyecto-descripcion {
+    .proyecto-descripcion,
+    .proyecto-descripcion-certificacion {
         font-size: 16px;
     }
-    .proyecto-titulossss {
+    .proyecto-titulossss,
+    .proyecto-titulossss-certificacion {
         font-size: 20px;
     }
     .proyecto-lenguajes {
@@ -1580,6 +1630,9 @@ a {
     .proyecto {
         margin: 15px 15px;
     }
+    .proyecto-certificacion {
+        margin: 15px 15px;
+    }
     .experencia-laboral-div,
     .experencia-laboral-div-1 {
         width: 100%;
@@ -1635,14 +1688,17 @@ a {
         font-size: 11px;
     }
     .duracion-proyecto__div,
-    .proyecto a {
+    .proyecto a,
+    .proyecto-link__div-certificacion {
         font-size: 13px !important;
     }
-    .proyecto-descripcion {
+    .proyecto-descripcion,
+    .proyecto-descripcion-certificacion {
         font-size: 15px;
     }
-    .proyecto-titulossss {
-        font-size: 18px;
+    .proyecto-titulossss,
+    .proyecto-titulossss-certificacion {
+        font-size: 17px;
     }
     .Tiempo-desarollando-texto {
         width: 100%;
@@ -1695,5 +1751,11 @@ a {
     }
     .experencia-laboral-texto1 {
         width: 90%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .proyecto-certificacion {
+        height: 165px;
     }
 }
