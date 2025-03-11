@@ -664,7 +664,9 @@ li {
 }
 
 .duracion-proyecto__div,
-.proyecto a {
+.proyecto a,
+.prueba-tecnica a,
+.proyecto-link__div {
     font-size: 16px !important;
 }
 
@@ -697,7 +699,25 @@ li {
     width: 100%;
 }
 
+.prueba-tecnica-lenguajes {
+    display: flex;
+    margin: 7px;
+    margin-bottom: 6px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
 .proyecto-lenguaje {
+    display: inline-block;
+    background: #2c3e50;
+    padding: 5px 10px;
+    border-radius: 8px;
+    margin: 5px;
+    font-size: 0.85rem;
+}
+
+.prueba-tecnica-lenguaje {
     display: inline-block;
     background: #2c3e50;
     padding: 5px 10px;
@@ -719,6 +739,15 @@ li {
     height: 50px;
 }
 
+.div_desc-prueba-tecnica {
+    width: 98%;
+    margin: 1%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
 .div_desc-certificacion {
     width: 98%;
     margin: 1%;
@@ -731,6 +760,21 @@ li {
 }
 
 .proyecto {
+    position: relative;
+    width: 60%;
+    height: 205px;
+    border-radius: 2px;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 8px;
+    background: #002040b4;
+    color: rgb(234, 232, 232);
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border: 2px solid #cfcfcf;
+}
+
+.prueba-tecnica {
     position: relative;
     width: 60%;
     height: 205px;
@@ -1237,6 +1281,9 @@ a {
     .ochenta {
         font-size: 19px;
     }
+    .div_desc-prueba-tecnica {
+        height: 55px;
+    }
 }
 
 @media screen and (max-width: 850px) {
@@ -1353,6 +1400,10 @@ a {
         width: 100%;
         margin: 20px 20px;
     }
+    .prueba-tecnica {
+        width: 100%;
+        margin: 20px 20px;
+    }
     .proyecto-certificacion {
         width: 100%;
         margin: 20px 20px;
@@ -1378,8 +1429,12 @@ a {
     .proyecto-lenguaje {
         font-size: 12px;
     }
+    .prueba-tecnica-lenguaje {
+        font-size: 12px;
+    }
     .duracion-proyecto__div,
     .proyecto a,
+    .prueba-tecnica a,
     .proyecto-link__div-certificacion {
         font-size: 14px !important;
     }
@@ -1394,7 +1449,12 @@ a {
     .proyecto-lenguajes {
         margin: 1px;
         margin-bottom: 5px;
-        margin-top: 19px;
+        margin-top: 18px;
+    }
+    .prueba-tecnica-lenguajes {
+        margin: 1px;
+        margin-bottom: 5px;
+        margin-top: 14px;
     }
     .div-abrir {
         padding: 2rem;
@@ -1495,6 +1555,20 @@ a {
 /* este es el tamaño solo para movil */
 
 @media screen and (max-width: 499px) {
+    .prueba-tecnica {
+        height: 220px;
+    }
+    .proyecto-titulossss,
+    .proyecto-titulossss-certificacion {
+        font-size: 17px;
+    }
+    .proyecto-descripcion,
+    .proyecto-descripcion-certificacion {
+        font-size: 15px;
+    }
+    .prueba-tecnica-lenguaje {
+        font-size: 10px;
+    }
     .Tiempo-desarollando {
         display: flex;
         width: 100%;
@@ -1630,6 +1704,9 @@ a {
     .proyecto {
         margin: 15px 15px;
     }
+    .prueba-tecnica {
+        margin: 15px 15px;
+    }
     .proyecto-certificacion {
         margin: 15px 15px;
     }
@@ -1681,14 +1758,24 @@ a {
         margin-bottom: 10px;
         margin-top: 19px;
     }
+    .prueba-tecnica-lenguajes {
+        margin: 1px;
+        margin-bottom: 10px;
+        margin-top: 19px;
+    }
 }
 
 @media screen and (max-width: 400px) {
     .proyecto-lenguaje {
         font-size: 11px;
     }
+    .prueba-tecnica-lenguaje {
+        font-size: 11px;
+    }
     .duracion-proyecto__div,
     .proyecto a,
+    .proyecto-link__div,
+    .prueba-tecnica a,
     .proyecto-link__div-certificacion {
         font-size: 13px !important;
     }
@@ -1698,7 +1785,7 @@ a {
     }
     .proyecto-titulossss,
     .proyecto-titulossss-certificacion {
-        font-size: 17px;
+        font-size: 16px;
     }
     .Tiempo-desarollando-texto {
         width: 100%;
@@ -1754,6 +1841,19 @@ a {
     }
     .educacion-item-batx {
         width: 80%;
+    }
+    .prueba-tecnica-lenguajes {
+        flex-wrap: wrap;
+        height: 56px;
+    }
+    .prueba-tecnica {
+        height: 225px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .prueba-tecnica {
+        height: 249px;
     }
 }
 
